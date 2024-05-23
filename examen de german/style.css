@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9; /* Azul claro */
+    color: #333; /* Color de texto principal */
+}
+
+header {
+    background-color: #5eaaa8; /* Verde azulado */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 0 0 30px 30px; /* Bordes redondeados en la parte inferior */
+}
+
+nav {
+    background-color: #7bb3b0; /* Verde azulado más claro */
+    padding: 10px 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a8d0db; /* Azul claro */
+}
+
+/* Formularios */
+table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Gris claro */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table input[type="text"],
+table input[type="email"],
+table input[type="password"],
+table input[type="submit"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+table input[type="text"]:focus,
+table input[type="email"]:focus,
+table input[type="password"]:focus {
+    outline: none;
+    border-color: #5eaaa8; /* Verde azulado */
+}
+
+/* Botones */
+input[type="submit"] {
+    background-color: #5eaaa8; /* Verde azulado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #7bb3b0; /* Verde azulado más claro */
+}
+
+/* Títulos */
+h1 {
+    margin: 20px;
+    color: #333; /* Color de texto principal */
+    font-weight: 400;
+}
+
+/* Estilos específicos para cada página */
+.titulo-kawaii {
+    font-family: 'Comic Sans MS', cursive;
+    /* Otros estilos personalizados */
+}
+
+.inser {
+    background-color: #8c9eff; /* Azul claro */
+}
+
+.inser:hover {
+    background-color: #a1bfff; /* Azul claro más claro */
+}
+
+.borrar {
+    background-color: #ff8a80; /* Rojo claro */
+}
+
+.borrar:hover {
+    background-color: #ff9e97; /* Rojo claro más claro */
+}
